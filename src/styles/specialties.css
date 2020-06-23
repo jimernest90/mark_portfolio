@@ -60,9 +60,6 @@ a{
     0%{
         height: 10em;
     }
-    100%{
-        height: 30em;
-    }
 }
 
 @media(max-width: 420px){
@@ -83,9 +80,10 @@ a{
     .divider{
         margin: auto;
         border: 3px solid rgb(254,42,248);
+        height: 10em;
     }
     .resume_specialties{
         font-size: 1rem;
-        margin-left: 1.5em;
+        margin-left: .5em;
     }
 }
