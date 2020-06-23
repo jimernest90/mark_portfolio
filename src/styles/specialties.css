@@ -74,16 +74,16 @@ a{
     .designer{
         margin-top: 2em;
         margin-right: 1em;
-        margin-left: 1em;
+        margin-left: 2em;
         font-size: 1.5rem;
     }
     .divider{
         margin: auto;
         border: 3px solid rgb(254,42,248);
-        height: 10em;
+        height: 20em;
     }
     .resume_specialties{
         font-size: 1rem;
-        margin-left: .5em;
+        margin-left: 1em;
     }
 }
