@@ -1,15 +1,21 @@
+html body{
+    background: black;
+}
 .title_Name{
     background: black;
-    margin: 0;
-    padding: 0;
+    height: 100%
 }
-.title_Name h1{
-    margin: 0;
-    padding: 0;
+.title_Text h1{
+    margin-top: 3em;
     text-align: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
     font-family: 'Teko', sans-serif;
     font-size: 5rem;
+    padding: 0;
     color: rgb(254,42,248);
+}
+.title_Text p{
+    margin-top: 0;
+}
+.title_Text{
+    margin-bottom: 4em;
 }
