@@ -17,6 +17,9 @@
     margin-top: 1em;
     margin-bottom: 0;
 }
+.painting_div p{
+    font-size: 2rem;
+}
 .designer{
     font-family: 'Teko', sans-serif;
     color: rgb(254,42,248);
@@ -25,6 +28,9 @@
     margin-right: 5.1em;
     margin-top: 1em;
     margin-bottom: 0;
+}
+.designer p{
+    font-size: 2rem
 }
 .divider{
     border: 2px solid rgb(254,42,248);
