@@ -67,16 +67,22 @@ a{
 
 @media(max-width: 420px){
     .special_parent{
-        width: 100vw;
         height: 100vh;
     }
     .painting_div{
-        margin: 1em;
-        font-size: 2rem;
+        margin-top: 2em;
+        margin-left: 1em;
+        font-size: 1.5rem;
     }
     .designer{
-        margin: 1em;
-        font-size: 2rem;
+        margin-top: 2em;
+        margin-right: 1em;
+        margin-left: 3em;
+        font-size: 1.5rem;
+    }
+    .divider{
+        margin: auto;
+        border: 3px solid rgb(254,42,248);
     }
     .resume_specialties{
         font-size: 1rem;
