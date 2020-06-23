@@ -1,0 +1,85 @@
+.special_parent{
+    background: black;
+    height: 100vh; 
+}
+.special_div{
+    background: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.painting_div{
+    font-family: 'Teko', sans-serif;
+    color: rgb(254,42,248);
+    font-size: 3rem;
+    margin-left: 5.1em;
+    margin-right: 5.1em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.designer{
+    font-family: 'Teko', sans-serif;
+    color: rgb(254,42,248);
+    font-size: 3rem;
+    margin-left: 5.1em;
+    margin-right: 5.1em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.divider{
+    border: 2px solid rgb(254,42,248);
+    height: 30em;
+    margin-bottom: 0;
+    animation: longDivider 1s;
+}
+.special_parent{
+    text-align: center;
+    color: rgb(254,42,248);
+    background: black;
+    font-family: 'Teko', sans-serif;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.ig_image{
+    width: 1em;
+    margin: 0;
+}
+.painting_div{
+    padding: 0;
+}
+.resume_specialties{
+    background: black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes longDivider{
+    0%{
+        height: 10em;
+    }
+    100%{
+        height: 30em;
+    }
+}
+
+@media(max-width: 420px){
+    .special_parent{
+        width: 100vw;
+        height: 100vh;
+    }
+    .painting_div{
+        margin: 1em;
+        font-size: 2rem;
+    }
+    .designer{
+        margin: 1em;
+        font-size: 2rem;
+    }
+    .resume_specialties{
+        font-size: 1rem;
+        margin-left: 1.5em;
+    }
+}
