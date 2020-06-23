@@ -92,3 +92,8 @@ a{
         margin-right: .5em;
     }
 }
+@-moz-document url-prefix(){
+    .resume_specialties{
+        margin-left: 1em;
+    }
+}
