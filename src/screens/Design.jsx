@@ -1,5 +1,4 @@
 import React from 'react'
-import Axios from 'axios'
 
 
 class Design extends React.Component {
