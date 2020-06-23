@@ -80,6 +80,7 @@ class Paintings extends React.Component {
         <div className='design_parent'>
             <div className='design_nav'>
             <NavLink exact path to='/home'><h1>HOME</h1></NavLink>
+            <NavLink exact path to='/designs'><h1>DESIGNS</h1></NavLink>
             <NavLink exact path to='/resume'><h1>RESUME</h1></NavLink>
             </div>
             <div className='nav_divider'/>
